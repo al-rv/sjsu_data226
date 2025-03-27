@@ -32,7 +32,7 @@ def run_ctas(database, schema, table, select_sql, primary_key=None):
         logging.info(sql)
         cur.execute(sql)
 
-        # Check for duplicate rows (entire row uniqueness)
+        # Check for duplicate rows 
         duplicate_check_sql = f"""
           SELECT COUNT(*) AS total_rows, 
                  COUNT(DISTINCT userid, sessionid, channel, TS) AS distinct_rows
