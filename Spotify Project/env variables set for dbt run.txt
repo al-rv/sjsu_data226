@@ -1,0 +1,7 @@
+$env:DBT_ACCOUNT="yoursnowflakeaccount"
+$env:DBT_USER="yoursnowflakeuser"                
+$env:DBT_PASSWORD="Yoursnowflakepassword"
+$env:DBT_DATABASE='Yoursnowflakedatabase'
+$env:DBT_ROLE='yoursnowflakerole'
+$env:DBT_USER='yoursnowflakeuser'
+$env:DBT_WAREHOUSE='yoursnowflakewarehouse'
